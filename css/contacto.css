@@ -157,9 +157,34 @@ footer{
 }
 
 
-@media screen and (max-width:900px ) {
-     ul{
-        display: flex;
-        flex-wrap: wrap;
-     }
+
+    @media(max-width:600px){
+        header{
+            flex-direction: column;
+           }
+           .caja1{
+            font-size: 18px;
+            padding: 20px;
+            flex-direction: row;
+    
+        }
+        .asides{
+            margin:0px -100px 0  300px;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 80px;
+        }
+         .inputs{
+            margin:0 auto;
+            width: 100%;
+            margin: 0 40px 0 100px;
+         }
+         .inp{
+            border-radius: 10px;
+        }
+        .mapa{
+            width: 2000px;
+            
+        }
 }

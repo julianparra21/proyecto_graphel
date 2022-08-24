@@ -116,19 +116,52 @@ footer{
 }
 @media  (max-width:600px){ 
     header{
-    
+     flex-direction: column;
     }
-    ul{
-       
-        flex-wrap: wrap;
+    .caja1{
+        font-size: 18px;
+        padding: 20px;
+        flex-direction: row;
+
     }
 
     .logos{
-        flex-direction: column;
+        margin:  100px 100px;
         padding:30px;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        text-align: center;
+        
     }
     .j1{
         display: flex;
         flex-direction: column;
+    }
+    .caja1{
+        font-size: 20px;
+        flex-direction: row;
+
+    }
+    .text1{
+        font-size: 36px;
+    }
+    .p1{
+        font-size:15px;
+        text-align: 
+    }
+    .menu2{
+        display: flex;
+        justify-content:space-around;
+        
+    }
+    .te{
+        justify-content: center;
+       text-align: center;
+       margin:10px 10px 10px 10px;
+    }
+    .mapa{
+        width: 100%;
+        
     }
 }

@@ -121,3 +121,29 @@ footer{
     height: 8vh;
     font-size: 12px;
 }
+@media (max-width:600px) {
+    header{
+        flex-direction: column;
+       }
+       .caja1{
+        font-size: 18px;
+        padding: 20px;
+        flex-direction: row;
+
+    }
+    .aside{
+       margin-right: 40px;
+       margin-left: 40px;
+        max-width: 100%;
+    }
+    .caja2{
+        margin-right: 40px;
+        margin-left: 40px;
+         max-width: 100%;
+    }
+    .caja3{
+        margin-right: 40px;
+        margin-left: 40px;
+         max-width: 100%;
+    }
+}
